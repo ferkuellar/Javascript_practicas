@@ -19,6 +19,7 @@ let mensaje; // Está abierto, Está cerrado, hoy abrimos a las XX
 //     console.log('Día de semana');
 //     horaApertura = 11;
 // }
+
 horaApertura = ( [0,6].includes( dia ) ) ? 9 : 11;
 
 

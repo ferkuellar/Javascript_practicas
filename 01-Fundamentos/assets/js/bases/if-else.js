@@ -35,7 +35,7 @@ if ( dia === 0 ) {
 
 
 // Sin usar If Else, o Switch, únicamente objetos
-dia = 6; // 0:domingo, 1: lunes....
+dia = 3; // 0:domingo, 1: lunes....
 
 const diasLetras = {
     0:'domingo',
@@ -47,8 +47,18 @@ const diasLetras = {
     6:'sábado',
 }
 
-const diasLetras2 = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado',];
+const diasLetras2 = [
+    'domingo',
+    'lunes',
+    'martes',
+    'miércoles',
+    'jueves',
+    'viernes',
+    'sábado',
+];
+
 
 
 // día de la semana
-console.log( diasLetras2[dia] );
+console.log( diasLetras[dia]);
+console.log( diasLetras2[dia]);

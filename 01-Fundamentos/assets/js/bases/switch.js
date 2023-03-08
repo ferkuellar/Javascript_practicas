@@ -1,11 +1,11 @@
 
 
-const dia = '2'; // 0: Domingo
+const dia = '2'; // 0: Domingo.... 1: Lunes....
 
 switch( dia ) {
     case 0:
         console.log('Domingo');
-        break;
+        break; // salir del procedimento se rompe el ciclo
     case 1: 
         console.log('Lunes');
         break;

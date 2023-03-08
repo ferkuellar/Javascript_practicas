@@ -12,21 +12,21 @@ const amigosArr = [
     'Peter',
     'Tony',
     'Dr. Strange',
-    amigo ? 'Thor' : 'Loki',
+    amigo ? 'Thor' : 'Loki', // operacion ternaria 
     // (()=> 'Nick Fury')()
-    elMayor(10, 15)
+    elMayor(10, 15),
 ];
 
-console.log( amigosArr );
+console.log( amigosArr ); // Arr array
 
 
 const nota = 82.5; // A+ A B+
 const grado = nota >= 95 ? 'A+' :
-              nota >= 90 ? 'A'  :
-              nota >= 85 ? 'B+' :
-              nota >= 80 ? 'B'  :
-              nota >= 75 ? 'C+' :
-              nota >= 70 ? 'C'  : 'F';
+            nota >= 90 ? 'A'  :
+            nota >= 85 ? 'B+' :
+            nota >= 80 ? 'B'  :
+            nota >= 75 ? 'C+' :
+            nota >= 70 ? 'C'  : 'F';
 
 console.log({ nota, grado });
 
